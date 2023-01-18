@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: backend-secrets
+type: Opaque
+data:
+# echo -n estoesmiBacked | base64ZXN0b2VzbWlCYWNrZWQ=
+  JWT_SECRET: ZXN0b2VzbWlCYWNrZWQ=
+# kubectl apply -f backend.yml 
+ #  kubectl logs pod/backend-deployment-f69558764-8qr2z 
+ #  kubectl get all
+ #  kubectl apply -f backend.yml 
+ #  kubectl apply -f backend-secrest.yml 
+ #  kubectl apply -f backend.yml 
+ #  kubectl get all
+ #  kubectl apply -f pg-admin-secrets.yml 
+ #  kubectl apply -f pg-admin.yml 
+ #  kubectl get all
+ #  kubectl logs -f pod/backend-deployment-f69558764-8qr2z
+ #  kubectl get all
+ #  minikube service backend-service
+ #  history
+
